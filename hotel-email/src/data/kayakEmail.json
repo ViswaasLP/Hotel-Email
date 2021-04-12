@@ -7,7 +7,7 @@
       "tinyInfo": "Gate 1 Travel",
       "price": "649",
       "link": "#",
-      "image": "https://i.imgur.com/3Bfnj1R.png"
+      "image": "https://github.com/ViswaasLP/Hotel-Email/blob/master/hotel-email/src/assets/img/ireland.png?raw=true"
     },
     "offers": [
       {
@@ -17,7 +17,7 @@
         "tinyInfo": "CheapCaribbean.com",
         "price": "689",
         "link": "#",
-        "image": "https://i.imgur.com/woFusXt.png"
+        "image": "https://github.com/ViswaasLP/Hotel-Email/blob/master/hotel-email/src/assets/img/cancun.png?raw=true"
       },
       {
         "location": "China",
@@ -26,7 +26,7 @@
         "tinyInfo": "Chinaair.com",
         "price": "950",
         "link": "#",
-        "image": "https://i.imgur.com/ZpeTZGS.jpg"
+        "image": "https://github.com/ViswaasLP/Hotel-Email/blob/master/hotel-email/src/assets/img/china.jpg?raw=true"
       },
       {
         "location": "London",
@@ -35,7 +35,7 @@
         "tinyInfo": "CheapCaribbean.com",
         "price": "1200",
         "link": "#",
-        "image": "https://i.imgur.com/DSqyJX0.png"
+        "image": "https://github.com/ViswaasLP/Hotel-Email/blob/master/hotel-email/src/assets/img/london.png?raw=true"
       }
     ]
   }
