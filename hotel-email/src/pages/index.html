@@ -8,10 +8,10 @@ subject: Great Deals Today
     <columns>
       <h2>Deal Of The Day</h2>
       <img src="{{root}}/assets/img/ireland.png">
-      <p>Ireland: 8 days with air, hotel and car rental. Use promo code CFDL110 to save. Price reflects NYC departures, other cities available. </p>
-      <span class="save_amount">Save $110 with code</span>
-      <span class="tiny_info">Gate 1 Travel</span>
-      <span class="Price">$649+</span>
+      <p>{{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}} </p>
+      <span class="save_amount">{{kayakEmail.dealOfTheDay.saveAmount}}</span>
+      <span class="tiny_info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
+      <span class="Price">${{kayakEmail.dealOfTheDay.price}}+</span>
       <center>
         <a href="#" class="button">See Deal</a>
       </center>
@@ -26,20 +26,21 @@ subject: Great Deals Today
 <container>
   <row class="content_area">
     <columns class="first_offer">
+      {{#each kayakEmail.offers}}
       <row class="offer ">
         <columns>
-          <img src="{{root}}/assets/img/cancun.png">
-          <p>Cancun: 4 nights with air and Melody Maker Cancun stay. Price reflects NYC departures, other cities available. </p>
-          <span class="save_amount">Save up to 65%</span>
-          <span class="tiny_info">CheapCaribbean.com</span>
-          <span class="Price">$689+</span>
+          <img src="{{this.image}}">
+          <p>{{this.location}}: {{this.description}}</p>
+          <span class="save_amount">{{this.saveAmount}}</span>
+          <span class="tiny_info">{{this.tinyInfo}}</span>
+          <span class="Price">${{this.price}}+</span>
           <center>
             <a href="#" class="button">See Deal</a>
           </center>
         </columns>
       </row>
       
-      
+      {{/each}}   
     </columns>
   </row>
 </container>
